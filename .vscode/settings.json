@@ -17,6 +17,7 @@
         "atomic": "c",
         "condition_variable": "c",
         "future": "c",
-        "memory": "c"
+        "memory": "c",
+        "ratio": "c"
     }
 }

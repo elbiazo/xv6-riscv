@@ -5,6 +5,7 @@
 #include "memlayout.h"
 #include "spinlock.h"
 #include "proc.h"
+#include "syscall.h"
 
 uint64
 sys_exit(void)
@@ -97,4 +98,12 @@ uint64 sys_pages(void)
 {
 
   return kfreepages();
+}
+
+// traces syscall
+uint64 sys_trace(void)
+{
+  int syscall_num;
+  argint(0, &syscall_num);
+  return ktrace(syscall_num);
 }
