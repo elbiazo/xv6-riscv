@@ -1,0 +1,22 @@
+{
+    "files.associations": {
+        "*.md": "markdown",
+        "*.h": "cpp",
+        "*.tcc": "c",
+        "array": "c",
+        "deque": "c",
+        "string": "c",
+        "unordered_map": "c",
+        "vector": "c",
+        "string_view": "c",
+        "initializer_list": "c",
+        "ranges": "c",
+        "mutex": "c",
+        "semaphore": "c",
+        "stop_token": "c",
+        "atomic": "c",
+        "condition_variable": "c",
+        "future": "c",
+        "memory": "c"
+    }
+}
