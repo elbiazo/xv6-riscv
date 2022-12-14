@@ -38,3 +38,4 @@ entry("sleep");
 entry("uptime");
 entry("pages");
 entry("trace");
+entry("vmprint");

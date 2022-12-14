@@ -134,6 +134,9 @@ UPROGS=\
 	$U/_zombie\
 	$U/_trace\
 	$U/_pages\
+	$U/_crashtest\
+	$U/_vmtest\
+
 
 fs.img: mkfs/mkfs README $(UPROGS)
 	mkfs/mkfs fs.img README $(UPROGS)

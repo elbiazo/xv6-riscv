@@ -22,3 +22,4 @@
 #define SYS_close 21
 #define SYS_pages 22
 #define SYS_trace 23
+#define SYS_vmprint 23

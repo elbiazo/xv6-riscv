@@ -107,3 +107,12 @@ uint64 sys_trace(void)
   argint(0, &syscall_num);
   return ktrace(syscall_num);
 }
+
+// vmprint
+uint64 sys_vmprint(void)
+{
+  uint64 vaddr = 0;
+  argaddr(0, &vaddr);
+  kvmprint(myproc()->pagetable, vaddr);
+  return 0;
+}
